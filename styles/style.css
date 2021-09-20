@@ -9,6 +9,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+header {
+    display: none;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
@@ -298,6 +302,10 @@ p {
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
+    header{
+        display: none;
+    }
+
     .container{
         display: flex;
         flex-wrap: wrap;
@@ -342,6 +350,9 @@ p {
 
 
 @media screen and (max-device-width: 435px){
+    html{
+        scroll-behavior: smooth;
+    }
     body{
         display: flex;
         flex-direction: column;
@@ -393,9 +404,49 @@ p {
         align-items: center;
     }
 
-    .languages-list>li{
+    .languages-list>li {
         align-items: flex-start;
         justify-content: center;
         margin: 0 0 0 50px;
     }
+
+    header {
+        display: block;
+    }
+
+    .navigation {
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .menu-box{
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        top: 10px;
+        width: 320px;
+        list-style: none;
+        text-align: center;
+        background-color: #a69f9f;
+        box-shadow: 1px 0 6px #9d9d9d;
+        opacity: 0.85;
+    }
+
+    .menu-item {
+        display: block;
+        padding: 3px 5px;
+        color: #333333;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
 }

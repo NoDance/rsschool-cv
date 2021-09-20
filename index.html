@@ -9,6 +9,18 @@
     <title>NoDance</title>
 </head>
 <body>
+    <header>
+        <nav class="navigation">
+            <ul class="menu-box">
+              <li><a class="menu-item" href="#abou">About me</a></li>
+              <li><a class="menu-item" href="#expe">Experience</a></li>
+              <li><a class="menu-item" href="#educ">Education</a></li>
+              <li><a class="menu-item" href="#hard">Hard skills</a></li>
+              <li><a class="menu-item" href="#soft">Soft skills</a></li>
+              <li><a class="menu-item" href="#foot">Links</a></li>
+            </ul>
+        </nav>
+    </header>
     <main class="container">
         <section class="left-column">
             <div class="photo">
@@ -37,13 +49,13 @@
             <hr>
         </section>
         <section class="right-column">
-            <div class="about"><h2 class="h2-right">About me:</h2>
+            <div class="about" id="abou"><h2 class="h2-right">About me:</h2>
                 <p>I'm 28 years old.
                 I live in Minsk. I'm learning, and improve my soft and hard skills,
                 to become a frontend-developer.
                 </p>
             </div>
-            <div class="experience"><h2 class="h2-right">Experience:</h2>
+            <div class="experience" id="expe"><h2 class="h2-right">Experience:</h2>
                 <p>
                     I have no experience on IT, but I absolutely love this direction,
                     studied *<a href="https://rs.school/js-stage0/" title="Stage 0">JavaScript/Front-end. Stage 0</a>*
@@ -51,7 +63,8 @@
                     I'm not going to stop there.
                 </p>
             </div>
-            <div class="education"><h2 class="h2-right">Education:</h2>
+            <div class="education" id="educ">
+                <h2 class="h2-right">Education:</h2>
                 <ul class="education-list">
                 <li><p><b>2011: </b><br>
                     Belorusian State University Of Informatics and Radioelectronics<br>
@@ -69,7 +82,7 @@
                     I am studying online at <a href="https://rs.school/" title="RS School">RS School</a>.</li>
                 </ul>
             </div>
-            <div class="hard-skills">
+            <div class="hard-skills" id="hard">
                 <h2 class="h2-right">Hard skills:</h2>
                 <ul class="skills">
                     <li class="logo-html">
@@ -87,7 +100,7 @@
 
                 </ul>
             </div>
-            <div class="soft-skills">
+            <div class="soft-skills" id="soft">
                 <h2 class="h2-right">Soft skills:</h2>
                 <ul class="soft-skills-list">
                     <li>Teamwork</li>
@@ -102,7 +115,7 @@
         </section>
     </main>
     <footer>
-        <div ><a href="https://github.com/NoDance" title="GitHub"><img class="git-logo" src="pictures/images/git.png" alt="Ссылка на GitHub"></a></div>
+        <div id="foot"><a href="https://github.com/NoDance" title="GitHub"><img class="git-logo" src="pictures/images/git.png" alt="Ссылка на GitHub"></a></div>
         <div ><a href="https://rs.school/js/" title="RS School"><img class="rs-school-logo" src="pictures/images/rs-school.png" alt="Ссылка на курс"></a></div>
         <div class="year"><p>2021 &#169;</p></div>
     </footer>
