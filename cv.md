@@ -1,6 +1,6 @@
 #CV
 *Raman Savianok*
-===
+---
 *Contacts:*
 tel: +375 25 759 69 13
 mail: raman.savianok@yandex.ru
